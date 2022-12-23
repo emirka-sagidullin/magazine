@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.first{
+    background: url(../img/fon1.svg)no-repeat center center/cover;
+}
+
+.left{
+    height: 110%;
+    position: fixed;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.left__header{
+    padding: 23px 26px;
+}
+
+.left__logo{
+    width: 52px;
+    height: 52px;
+    background: url(../img/Nike_Logo.svg) center center/cover;
+}
+
+.left__title{
+    letter-spacing: 1em;
+    writing-mode: vertical-lr;
+}
+
+.left__titleBlock{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.right__header{
+    position: fixed;
+}
+
+.right__menu{
+    margin-left: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.right__menuButton{
+    color: #fff;
+    font-family: 'Squada One';
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 50px;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 306px;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+.first__content{
+    margin-left: -800px;
+}
+
+.first__title{
+    font-style: italic;
+    font-size: 120px;
+    font-weight: 800;
+}
+
+.first__subtitle{
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.first__price{
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.first__text{
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.first__button{
+    font-family: 'Poppins';
+    color: #fff;
+    border-radius: 100px;
+    margin-top: 40px;
+    background: #9C0725;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.second{
+    background: url(../img/fon2.svg)no-repeat center center/cover;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 306px;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+.second__content{
+    margin-left: -800px;
+}
+
+.second__title{
+    font-style: italic;
+    font-size: 120px;
+    font-weight: 800;
+}
+
+.second__subtitle{
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.second__price{
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.second__text{
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.second__button{
+    font-family: 'Poppins';
+    color: #fff;
+    border-radius: 100px;
+    margin-top: 40px;
+    background: #0057FA;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.third{
+    background: url(../img/fon3.svg)no-repeat center center/cover;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 306px;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+.third__content{
+    margin-left: -800px;
+}
+
+.third__title{
+    font-style: italic;
+    font-size: 120px;
+    font-weight: 800;
+}
+
+.third__subtitle{
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.third__price{
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.third__text{
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.third__button{
+    font-family: 'Poppins';
+    color: #fff;
+    border-radius: 100px;
+    margin-top: 40px;
+    background: #0BDA51;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 700;
+}
